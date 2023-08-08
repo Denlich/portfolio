@@ -89,3 +89,26 @@ export const projectsData = [
     imageUrl: queuedImg,
   },
 ] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "SCSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "React Native",
+  "Next.js",
+  "Node.js",
+  "Git",
+  "Tailwind",
+  "Material UI",
+  "Redux",
+  "Zustand",
+  "React Query",
+  "GraphQL",
+  "Apollo Client",
+  "Express",
+  "MongoDB",
+  "Framer Motion",
+] as const;
