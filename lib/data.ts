@@ -1,4 +1,9 @@
 import React from "react";
+
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
+
 import moweeImg from "@/public/mowee.png";
 import eatIsImg from "@/public/eatIs.png";
 import decisionerImg from "@/public/decisioner.png";
@@ -111,4 +116,23 @@ export const skillsData = [
   "Express",
   "MongoDB",
   "Framer Motion",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Simplicity",
+    location: "Kyiv, Ukraine",
+    description:
+      "I worked as a front-end developer for 9 months developing mobile applications.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2022 - February 2023",
+  },
+  {
+    title: "EVDEV",
+    location: "Kyiv, Ukraine",
+    description:
+      "I worked with animations using Framer Motion for 3 months. From that time my stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "February 2023 - May 2023",
+  },
 ] as const;
